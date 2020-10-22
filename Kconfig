@@ -1,0 +1,8 @@
+config SND_AES67
+	tristate "Virtual AES67 Soundcard"
+	select SND_PCM
+        help
+          Say 'Y' or 'M' to include support for the PCM AVB device.
+          Say 'Y' or 'M'  to include the virtual AES67 driver.  
+          This driver allows to recive or transmit Audiostreams
+          over IP. 
